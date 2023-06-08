@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    
+    <!-- You can change this placeholder title according to what you want your website to be called.
+        The name you put below will determine what name will display on an user's tab when on your site. -->
+    <title>Placeholder Title</title>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+
+            <!-- To put your own logo on there, just put your logo in the master 
+                folder and change the img src below accordingly -->
+            <img src="/logo.png" alt="">
+            
+        </div>
+        <ul class="links" id="nav-links">
+            <li>
+                <a href="index.html" class="navbar-link">
+                    Indicators
+                </a>
+            </li>
+            <li>
+                <a href="reports.html" class="navbar-link">
+                    Reports
+                </a>
+            </li>
+            <li class="navbar-dropdown">
+                <a href="#" class="navbar-link courses-link">
+                    Courses
+                </a>
+                <div class="dropdown-content">
+
+                    <!-- I used Stripe to handle payments since it is the safest and easiest to maintain
+                    for the price (2,9% + 0.3$ per transaction). To create purchase links that better fit what you want to sell, create a
+                    Stripe account and go to https://dashboard.stripe.com/test/payments. You will then just have 
+                    to link your bank account to your Stripe account and change the links below once you create new links. -->
+                    <a href="https://buy.stripe.com/test_9AQdRagrp9g97G8000">Course 1</a>
+                    <a href="https://buy.stripe.com/test_14k6oI5ML3VP6C48wx">Course 2</a>
+                    <a href="https://buy.stripe.com/test_aEUcN66QPfExbWobIK">Course 3</a>
+
+                </div>
+            </li>
+            <li>
+                <a href="pricing.html" class="navbar-link">
+                    Pricing
+                </a>
+            </li>
+            <li>
+                <a href="team.html" class="navbar-link">
+                    Team
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <img class="boilerplate-chart" src="https://designmodo.com/wp-content/uploads/2012/08/preview.png" 
+            alt="charts-boilerplate">
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
